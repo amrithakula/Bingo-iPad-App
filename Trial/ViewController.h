@@ -9,5 +9,13 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    
+}
+
+@property (weak, nonatomic) IBOutlet UIImageView *RITLogo;
+@property (weak, nonatomic) IBOutlet UIButton *startButtonName;
+
+- (IBAction)StartButton:(id)sender;
 
 @end
